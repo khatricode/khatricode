@@ -1,0 +1,381 @@
+body img {
+    width: 100%;
+}
+
+* {
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+.p_50{
+    padding: 50px 0px;
+}
+
+.for_title {
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.for_title h1 {
+    margin-top: 96px;
+    letter-spacing: 2px;
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.for_title p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 auto;
+    width: 56%;
+}
+
+.main_header {
+    text-transform: uppercase;
+    background-color: black;
+    padding: 20px 0;
+}
+
+.main_header .logo {
+    width: 67%;
+}
+
+.nav_bar {
+    justify-content: center;
+    float: right;
+    color: #fff;
+    display: flex;
+}
+
+.nav_bar ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.nav_bar ul li {
+    padding: 0px 18px;
+    text-decoration: none;
+}
+
+.main_menu {
+    display: flex;
+    padding: 7px 0;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons img {
+    width: 20px;
+}
+
+.content {
+    position: absolute;
+    top: 28%;
+    left: 7%;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.carousel-inner {
+    object-fit: cover;
+    height: 600px;
+}
+
+.cta {
+    margin-top: 24px;
+    font-weight: 500;
+    border: none;
+    background: #e41b3b;
+    padding: 12px 24px;
+    color: #fff;
+}
+
+.button .cta{
+    transition: background-color 0.3s ease;
+}
+
+.button .cta{
+     background-color: #b00000;
+}
+
+.cta:hover {
+    background-color: #b00000;
+}
+
+.banner_bottom_strip {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+
+.banner_bottom_strip ul {
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.banner_bottom_strip ul li {
+    padding: 18px 32px;
+}
+
+.image_wrapper {
+    position: relative;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.image_wrapper img {
+    width: 100%;
+}
+
+.image_wrapper image img {
+    background: linear-gradient();
+}
+
+.for_content {
+    background: linear-gradient(2deg, #000000d4, transparent);
+    padding: 20px;
+    align-items: end;
+    display: flex;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.for_content h4 {
+    margin: 0;
+    padding-right: 4px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.for_content img {
+    display: flex;
+    align-items: center;
+    width: 20px;
+}
+
+.rise_world {
+    height: 500px;
+}
+
+.rise_equal_world{
+    background-image: url(impact1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content_wrapper {
+    position: relative;
+}
+
+.content_wrapper .image img {
+    width: 100%;
+}
+
+.text {
+    color: #fff;
+    position: absolute;
+    top: 37%;
+    left: 7%;
+}
+
+.value .for_title {
+    text-align: left;
+}
+
+.value .for_title p {
+    margin: 0;
+    text-align: left;
+}
+
+.value_images {
+    border: 1px solid #cecece;
+}
+
+.value_images h5 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #e41b3b;
+}
+
+
+.value_images img {
+    width: 100%;
+}
+
+.content_wrapper_value {
+    padding: 20px;
+    height: 130px;
+}
+
+.image_wrapper_value img {
+    width: 100%;
+}
+
+.news {
+    padding: 0;
+    display: flex;
+}
+
+.news_left {
+    background: #202020;
+    height: 100%;
+    margin-right: 24px;
+}
+
+.Newsroom {
+    display: flex;
+    margin-top: 96px;
+    padding: 96px 0;
+    background-color: #f7f5ef;
+}
+
+.Newsroom .for_title h1 {
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+.news_left img {
+    object-fit: cover;
+    height: 360px;
+    width: 100%;
+}
+
+.news_left .left_content {
+    padding: 32px;
+    color: #fff;
+    background-color: #202020;
+}
+
+.Newsroom h6 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #aaa;
+}
+
+.Newsroom h5 {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.Newsroom a {
+    color: #e41b3b;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.Newsroom p {
+    font-style: italic;
+    padding-top: 24px;
+    margin: 0;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.news_right {
+    row-gap: 20px;
+    flex-direction: column;
+    color: #fff;
+    display: flex;
+}
+
+.news_right ul {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.news_right ul li {
+    width: 50%;
+}
+
+.news_content {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #000;
+    padding: 26px;
+}
+
+.news_content img {
+    padding-bottom: 20px;
+    height: auto;
+    width: 50%;
+}
+
+#mahindra_logo {
+    background-color: #484848;
+}
+
+.womens_mahindra{
+    padding: 0 !important;
+    border: 1px solid #bababa;
+    display: flex;
+}
+
+.womens_mahindra img{
+    width: 100%;
+}
+
+.womens_content {
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+}
+
+.womens_content h1{
+    padding-bottom: 12px;
+}
+
+
+
+.accordion-header {
+    background: #f7f5ef;
+    margin-bottom: 49px;
+}
+
+button.accordion-button.collapsed {
+    margin-top: 12px;
+}
+
+.accordion-header {
+    color: #dd052b;
+    margin-bottom: 0;
+    font-weight: 800;
+}
+
+.accordion-header h2{
+    font-weight: 600;
+}
+
+.accordion-item{
+    margin-bottom: 12px;
+}
